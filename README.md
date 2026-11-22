@@ -24,7 +24,7 @@ The custom `DoublyLinkedList` stores manual override events and exposes cursor
 based undo/redo operations. Run the verification matrix with:
 
 ```bash
-python3 -m unittest discover -s tests -v
+PYTHONPATH=.. python3 -m unittest discover -s tests -v
 ```
 
 Or solve a JSON state file:
